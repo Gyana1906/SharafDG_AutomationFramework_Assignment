@@ -1,17 +1,17 @@
-Set up:
-1.Java version - "21.0.2"
+Selenium  Automation Framework Set up for Sharf DG Web App:
+1.Pre- requisite :Java version - "21.0.2"
 2.Framework design pattern :Page Object model
-3.Main Folder : 
+3.Create Project and in Main Folder : 
 •	AbsractClass(all reusable methods for Page Object Class)
 •	ExtentReportNG (for reporting)
 •	PageObject Classes (For all the Test cases action methods and locators are present)
-4.Test Folder :
+ Test Folder :
 •	Test cases , Listeners & Base Test 
 5.Pom.xml (All  dependencies required for the project like :TestNg,Selenium, WebdriverManager,ExtentReports)
 6.Prop.properties file for configuration.
 7.Create TestNG.xml for test suites execution
 8.Listners class for implementing ITestListener
-Interface, to attach screenshots & pass & failure logs
+Interface, to attach screenshots ,logs for test pass & test fail
 
 
 Test case design:
