@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <listeners>
+
+        <listener  class-name="Listners"/>
+
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Abhipsa Mohapatra/IdeaProjects/ProjectSharaf/src/test/java/TC_LoginPage.java">
+        <classes>
+            <class name="TC_ProductPurchaseOrder"/>
+            <class name="TC_LoginPage"/>
+            <class name="TC_Registrationpage"/>
+
+
+        </classes>
+
+
+    </test>
+</suite>
