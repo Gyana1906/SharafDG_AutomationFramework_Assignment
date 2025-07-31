@@ -67,3 +67,19 @@ base url:https://uae.sdgstage.com
 -	Click on Place Order
 -	Verify - " Thank you for 20 years of tech, trust, and transformation. "
 Is displayed .
+
+
+
+Push Source code to repository:
+1.Login to gihub and create repository - https://github.com/Gyana1906/SharafDG_AutomationFramework_Assignment.git
+2.Go to the local project folder
+3.Right click and click on “Git bash”
+4.input below commands 
+
+git init
+git add README.md
+git add .
+git commit -m "code updated"
+git branch -M main
+git remote add origin https://github.com/Gyana1906/SharafDG_AutomationFramework_Assignment.git
+git push -u origin main
